@@ -48,13 +48,7 @@ ${data.contributing}
 ## Tests
 ${data.tests}
 
-${renderLicenseSection(data.license)}
-
-## Questions
-For any questions, please contact me via:
-- GitHub: [${data.github}](https://github.com/${data.github})
-- Email: ${data.email}
-  `;
+${renderLicenseSection(data.license)}`;
 }
 
 module.exports = generateMarkdown;
